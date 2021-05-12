@@ -7,10 +7,10 @@ public class Main {
         name[0] = "Case";
 
         // add name here
+        name[1] = "Jadyn";
 
-
-        for (int i=0; i < name.length; i++)
-            if (name[i] != null)
-                System.out.println("Hello, I'm " + name[i]);
+        for (String s : name)
+            if (s != null)
+                System.out.println("Hello, I'm " + s);
     }
 }
