@@ -8,6 +8,7 @@ public class Main {
 
         // add name here
         name[1] = "Jadyn";
+        name[2] = "Jonathan";
 
         for (String s : name)
             if (s != null)
